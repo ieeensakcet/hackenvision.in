@@ -5,8 +5,19 @@ html {
 }
 
 body {
-  margin: 0;
-  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  background: url(assets/34644491_8150248.jpg);
+  /* background-size: cover; */
+}
+
+h1,
+h2,
+p,
+div,
+span,
+Strong {
+  color: #fff;
 }
 
 article,
@@ -2210,7 +2221,7 @@ textarea.w-select {
 }
 
 .yellow-button:hover {
-  background-color: #e63f39;
+  background-color: #1d366c;
   box-shadow: -3px -2px 3px rgba(0, 0, 0, 0.05);
 }
 
@@ -2239,6 +2250,7 @@ textarea.w-select {
 }
 
 .feature-image {
+  color: #fff;
   width: 100%;
   height: 350px;
   object-fit: contain;
@@ -2308,7 +2320,7 @@ textarea.w-select {
 }
 
 .paragraph-2.how-does-it-work-paragraph {
-  color: var(--dark-blue);
+  color: var(--dark-white);
   margin: 0 220px 15px;
 }
 
@@ -2412,7 +2424,7 @@ textarea.w-select {
 }
 
 .heading---schedule {
-  color: var(--dt-red);
+  color: var(--dt-white);
   text-align: left;
   margin-top: 0;
   margin-bottom: 0;
@@ -2422,7 +2434,7 @@ textarea.w-select {
 
 .text-block-2 {
   width: 80%;
-  color: var(--dark-blue);
+  color: var(--dark-white);
   text-align: left;
   font-size: 16px;
   display: block;
@@ -2699,7 +2711,11 @@ textarea.w-select {
 }
 
 .link-3 {
-  color: var(--dt-red);
+  color: var(--dt-black);
+  animation: none;
+}
+.link-3:hover {
+  color: #2895f7;
 }
 
 .footer {
@@ -2906,7 +2922,7 @@ textarea.w-select {
 }
 
 .link-6 {
-  color: var(--dt-red);
+  color: var(--dt-white);
   text-decoration: none;
 }
 
@@ -2918,7 +2934,7 @@ textarea.w-select {
 }
 
 .judge-name {
-  color: var(--dark-blue);
+  color: var(--dt-white);
   text-decoration: none;
   transition: color 0.2s;
 }

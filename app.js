@@ -58,6 +58,7 @@
                     ("style" == e ? (b.style.cssText = c[e]) : b.setAttribute(e, c[e]));
         d && b.appendChild(a.c.createTextNode(d));
         return b;
+
     }
     function u(a, b, c) {
         a = a.c.getElementsByTagName(b)[0];
