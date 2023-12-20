@@ -8,7 +8,7 @@ body {
   width: 100vw;
   height: 100vh;
   background: url(assets/34644491_8150248.jpg);
-  /* background-size: cover; */
+  background-size: cover;
 }
 
 h1,
